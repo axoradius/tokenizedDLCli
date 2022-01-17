@@ -1,0 +1,23 @@
+{
+  "name": "tokenizeddlcli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dlPokemon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.0",
+    "path": "^0.12.7",
+    "printlogline": "^1.0.1",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-string": "^1.5.0"
+  }
+}
