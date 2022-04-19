@@ -202,21 +202,6 @@ function replaceTokens (myArray, tokenizedUrl) {
     return fullUrls;
 }
 
-/*
-let testUrl="https://sweagle.com/ab@01:100@/cd@01:10@/module/file.pdf"
-//let testUrl="https://sweagle.com/ab@08:12@/module/file.pdf"
-
-console.log("--idenitfy tokens---");
-var myTokenization = identifyTokens(testUrl); //returns an object with properties
-printLL("+++", "nbr of tokens "+ myTokenization.nbrOfTokens);
-printLL("+++", "length of tokenArray " + myTokenization.tokenArray.length);
-myTokenization.tokenArray.forEach((token) => console.log(token));
-console.log("--replace---");
-var allUrls = replaceTokens(myTokenization.tokenArray,myTokenization.tokenizedUrl);
-
-printLL("+++", "length of fullUrls Array " + allUrls.length );
-*/
-
 module.exports.identifyTokensInUrl = identifyTokens;
 module.exports.generateResolvedUrls = replaceTokens;
 module.exports.urlPassVerification = urlPassVerification;
